@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded',function(){
 const firstchild = parent.firstElementChild;
 const nextsibling = firstchild.nextSibling;
 const lastchild = parent.lastElementChild;
-console.log(firstchild);
-console.log(nextsibling);
-console.log(lastchild);
+console.log(firstchild.nodeName);
+console.log(nextsibling.nodeName);
+console.log(lastchild.nodeName);
 });
